@@ -1,0 +1,46 @@
+{
+  "name": "new-boiler-plate",
+  "version": "1.0.0",
+  "description": "boiler-plate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon bin/www",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chungw51993/new-boiler-plate.git"
+  },
+  "author": "Jin Chung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chungw51993/new-boiler-plate/issues"
+  },
+  "homepage": "https://github.com/chungw51993/new-boiler-plate#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.18.4"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-2"
+    ],
+    "plugins": [
+      "transform-runtime"
+    ]
+  }
+}
