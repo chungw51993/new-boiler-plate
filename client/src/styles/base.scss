@@ -1,0 +1,25 @@
+@import './normalize.css';
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,900');
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Nunito Sans', sans-serif;
+  background: #e5ebf7;
+  height: 100%;
+}
+
+button {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+div#root {
+  height: 100%;
+}
